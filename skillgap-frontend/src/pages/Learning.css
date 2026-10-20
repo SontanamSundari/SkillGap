@@ -1,0 +1,323 @@
+
+.learning-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  color: #1f2937;
+}
+
+.learning-back-button {
+  margin-bottom: 24px;
+  padding: 10px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #374151;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.learning-back-button:hover {
+  background: #f3f4f6;
+}
+
+.learning-header {
+  margin-bottom: 32px;
+}
+
+.learning-eyebrow {
+  color: #6366f1;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.learning-header h1 {
+  margin: 10px 0;
+  font-size: 32px;
+  color: #111827;
+}
+
+.learning-header > p:last-child {
+  color: #6b7280;
+  line-height: 1.7;
+}
+
+.learning-section {
+  margin-bottom: 28px;
+  padding: 24px;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 4%);
+}
+
+.learning-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  color: #111827;
+}
+
+.learning-section select {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #111827;
+  font-size: 15px;
+}
+
+.learning-topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.learning-topic-card {
+  padding: 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #f9fafb;
+}
+
+.learning-topic-card h3 {
+  margin-top: 0;
+  color: #111827;
+  font-size: 17px;
+}
+
+.learning-topic-card p {
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.learning-recommendation-list {
+  display: grid;
+  gap: 20px;
+}
+
+.learning-recommendation-card {
+  padding: 22px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.learning-recommendation-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.learning-recommendation-heading h3 {
+  margin-top: 4px;
+  color: #111827;
+}
+
+.learning-topic-status {
+  margin-bottom: 4px;
+  color: #6366f1;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.learning-priority {
+  flex-shrink: 0;
+  padding: 7px 10px;
+  border-radius: 6px;
+  background: #eef2ff;
+  color: #4338ca;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.learning-recommendation-card > p {
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+.learning-resources {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.learning-resources h4 {
+  margin-top: 0;
+  color: #111827;
+}
+
+.learning-resources ul {
+  padding-left: 20px;
+}
+
+.learning-resources li {
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+
+.learning-resources a {
+  color: #4f46e5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.learning-resources a:hover {
+  text-decoration: underline;
+}
+
+.learning-resource-meta {
+  display: block;
+  margin-top: 3px;
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.learning-error {
+  margin: 16px 0;
+  padding: 12px 16px;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  background: #fef2f2;
+  color: #b91c1c;
+}
+
+.learning-page button:not(.learning-back-button) {
+  padding: 11px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.learning-page button:not(.learning-back-button):hover {
+  background: #4338ca;
+}
+
+.learning-page button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+  .learning-page {
+    padding: 20px 14px;
+  }
+
+  .learning-header h1 {
+    font-size: 26px;
+  }
+
+  .learning-section {
+    padding: 18px;
+  }
+
+  .learning-recommendation-heading {
+    flex-direction: column;
+  }
+}
+
+.learning-assessment-action {
+  margin-top: 20px;
+}
+
+.learning-assessment-button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.learning-assessment-button:hover {
+  background: #1d4ed8;
+}
+
+.learning-assessment-button:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 3px;
+}
+
+
+/* Learning Plan header and navigation buttons */
+
+.learning-header {
+  margin-bottom: 24px;
+}
+
+.learning-header h1,
+.learning-header h2 {
+  margin-bottom: 10px;
+}
+
+.learning-header p {
+  margin-bottom: 16px;
+}
+
+/* Space buttons evenly and keep them aligned */
+.learning-header button,
+.learning-header a {
+  margin: 0;
+}
+
+.learning-header .learning-actions,
+.learning-header .header-actions,
+.learning-header .button-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Consistent, compact buttons */
+.learning-header button,
+.learning-header a {
+  min-height: 36px;
+  padding: 8px 14px;
+  border-radius: 7px;
+  line-height: 1.4;
+}
+
+/* Add breathing room between learning cards */
+.learning-path,
+.learning-roadmap {
+  margin-top: 20px;
+}
+
+.learning-card {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 600px) {
+  .learning-header .learning-actions,
+  .learning-header .header-actions,
+  .learning-header .button-group {
+    gap: 10px;
+  }
+}
+
+
+/* Keep Learning Plan navigation buttons separated */
+.learning-header button,
+.learning-header a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* Keep the last button from adding unnecessary right spacing */
+.learning-header button:last-child,
+.learning-header a:last-child {
+  margin-right: 0;
+}
